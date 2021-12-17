@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "init": "^0.1.2",
+    "package": "^1.0.1"
+  }
+}
