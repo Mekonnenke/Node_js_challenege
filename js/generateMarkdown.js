@@ -31,7 +31,13 @@ module.exports = answers =>
   console.log(license (License)); 
   return `
 <h1 align="center">${answers.projectTitle} 👋</h1>
-
+<p align="center">
+<img src="https://img.shields.io/badge/Javascript-yellow" />
+<img src="https://img.shields.io/badge/jQuery-blue"  />
+<img src="https://img.shields.io/badge/-node.js-green" />
+<img src="https://img.shields.io/badge/-inquirer-red" >
+<img src="https://img.shields.io/badge/-json-orange" />
+</p>
 
 ## Description
 🔍 ${answers.description}
@@ -48,6 +54,7 @@ module.exports = answers =>
 ## Installation
 💾 ${answers.installation}
 
+
 ## Usage
 💻 ${answers.usage}
 
@@ -58,6 +65,7 @@ This application is covered by the ${answers.license} license.
 
 ## Contributing
 👪 ${answers.contributing}
+N/A
 
 ## Tests
 ✏️ ${answers.tests}

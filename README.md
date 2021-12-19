@@ -1,6 +1,12 @@
 
 <h1 align="center"># README.md Generator: Node.js and ES6+ 👋</h1>
-
+   <p align="center">
+    <img src="https://img.shields.io/badge/Javascript-yellow" />
+    <img src="https://img.shields.io/badge/jQuery-blue"  />
+    <img src="https://img.shields.io/badge/-node.js-green" />
+    <img src="https://img.shields.io/badge/-inquirer-red" >
+    <img src="https://img.shields.io/badge/-json-orange" />
+</p>
 
 ## Description
 🔍 This app allows developer to provide a great README.me file in a way that is clear effective and easy to use it. 
