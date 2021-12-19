@@ -1,13 +1,11 @@
 // Declaring the dependencies and variables
 const fs = require("fs");
 const inquirer = require("inquirer");
-const generateReadme = require("./js/generateMarkdown")
+const generatorMarkdown  = require("./js/generateMarkdown")
+
 
 //Prompt the user questions to populate the README.md
-    const promptUser = () => {
-
-    return inquirer.prompt([
-        {
+const questions = [{
         
             type: "input",
             name: "name",
@@ -18,13 +16,7 @@ const generateReadme = require("./js/generateMarkdown")
             type: "input",
             name: "description",
             message: "Write a brief description of your project: "
-        },
-        {
-            type: "input",
-            name: "installation",
-            message: "Describe the installation process if any: ",
-        },
-      
+        },      
         {
             type: 'input',
             name:'Table of Contents',
@@ -45,6 +37,12 @@ const generateReadme = require("./js/generateMarkdown")
         },
         {
             type: 'input',
+            name:'What command are needed to test this app?',
+            message: 'Tests'
+    
+        },
+        {
+            type: 'input',
             name:'What licence is being used?',
             message: 'Licence',
             Choices: [
@@ -54,12 +52,7 @@ const generateReadme = require("./js/generateMarkdown")
             ] 
     
         },
-        {
-            type: 'input',
-            name:'What command are needed to test this app?',
-            message: 'Tests'
-    
-        },
+      
         {
             type: "input",
             name: "questions",
@@ -76,29 +69,39 @@ const generateReadme = require("./js/generateMarkdown")
             name:'What is your email address? ',
             message: 'Email'
     
-        }
-    ])
-    .then(projectData => {
-       readmeData.projects.push(projectData);
-        if (projectData.confirmAddProject) {
-          return promptProject(readmeData);
-        } else {
-          return readmeData;
-        }
-      });
-}
+        },
     
-promptUser()
-.then(promptProject)
-.then(readmeData => {
-  
-  
-  fs.writeFile('./README.md', pageREADME, err => {
-    if (err) throw new Error(err);
+    
+    
+    ]
 
-    console.log('Page created! Check out index.html in this directory to see it!');
-  });
-});
+function writeToFile(fileName, answers)
+{
+    fs.writeFile(fileName, answers, function(err){
+       console.log(fileName);
+       console.log(answers);
+       if (err)
+       {
+           return log.error(err);
+       }
+       else
+       {
+         console.log("The README has been generated");
+       }
+    });
+}
 
 
+//function to initial data
+function init()
+{
+    inquirer
+            .prompt(questions)
+            .then(function(answers){
+                writeToFile('README.md', generatorMarkdown(answers));
+                console.log(answers);
+            })
 
+}
+init();
+ 

@@ -21,20 +21,22 @@
 💻 [Gif demo of README-generator](readme-demo.gif)
 
 ## License
-![badge](https://img.shields.io/badge/license-undefined-brightgreen)
+![badge](https://img.shields.io/badge/license-APPACHE-brightgreen)
 <br />
-APPACHE
+
 
 ## Contributing
-👪 undefined
+👪 N/A
 
 ## Tests
-✏️ undefined
+✏️ node index.js
 
 ## Questions
 ✋ <br />
+For any questions, please contact me with the information below:
+ 
 <br />
-:octocat: Find me on GitHub: [Mekonnenke](#https://github.com/undefined)<br />
+ :location Find me on GitHub: [Mekonnenke](#https://github.com/undefined)<br />
 <br />
 ✉️ Email me with any questions: [mekotigi@gmail.com](mekotigi@gmail.com)<br /><br />
 

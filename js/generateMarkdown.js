@@ -1,7 +1,34 @@
+function renderLicenseBadge(license) {
+  const licence = APPACHE('licence')
+  let licenseType = license.license; // i think this is problem #1
+  let yourLicense = ''
+  if(licenseType === 'MIT') {
+   yourLicense = `![License:APACHE]( http://www.apache.org/licenses/LICENSE-2.0)`
+  }
+  else {
+   license.license = "N/A"
+ }
+ return yourLicense;
+
+
+
+
+function license(message)
+{ 
+const Url = 'http://www.apache.org/licenses/LICENSE-2.0'
+
+  console.license(message);
+}
+
+}
+module.exports.license = license;
+module.exports.endPoint = Url
+
 // generateReadme function populating the README.md
 module.exports = answers =>
 {
-  console.log(answers);
+  console.log();
+  console.log(license (License)); 
   return `
 <h1 align="center">${answers.projectTitle} 👋</h1>
 
