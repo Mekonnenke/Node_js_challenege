@@ -15,4 +15,7 @@ Provide instructions and examples for use. Include screenshots as needed.
 ## Tests
 Some prompts require input for the user to proceedwhile others can be left blank because they are left as optional. Examples of prompts requiring input include project name and description. Some optional ones are installation and usage sections
 
+## Links
 
+## Sample image
+![Screenshot](https://user-images.githubusercontent.com/90818220/159147693-770615a1-fefa-448a-8fb1-50c884534b00.JPG)
