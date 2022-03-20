@@ -54,7 +54,7 @@ function generateMarkdown(data) {
   For any additional questions or information, please contact me.
   [${data.email}](mailto:${data.email})
   
-  _This README was generated with ❤️ by [README-generator](https://github.com/mekonnenke/README-generator) 🔥🔥🔥_
+  
 `;
 }
 

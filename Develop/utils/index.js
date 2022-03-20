@@ -1,6 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkdown = require('./utils/generateMarkdown')
+const generateMarkdown = require('./generateMarkdown')
 
 // questions for user to answer, questions with validate are required!
 const questions = () => {
@@ -14,7 +14,8 @@ const questions = () => {
                     return true;
                 } else {
                     console.log('Please enter the project title!');
-                    return false;
+                    return false;clear
+
                 }
             }
         },
@@ -88,7 +89,7 @@ const questions = () => {
 
 // Write file
 questions().then((answers) => {
-    fs.writeFile("NEWREADME.md", generateMarkdown(answers), (err) => {
+    fs.writeFile("PRINTREADME.md", generateMarkdown(answers), (err) => {
       if (err) throw err;
     });
   });

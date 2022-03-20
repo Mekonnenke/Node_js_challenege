@@ -1,51 +1,18 @@
-
-<h1 align="center"># README.md Generator: Node.js and ES6+ 👋</h1>
-   <p align="center">
-    <img src="https://img.shields.io/badge/Javascript-yellow" />
-    <img src="https://img.shields.io/badge/jQuery-blue"  />
-    <img src="https://img.shields.io/badge/-node.js-green" />
-    <img src="https://img.shields.io/badge/-inquirer-red" >
-    <img src="https://img.shields.io/badge/-json-orange" />
-</p>
+# README.md Generator 
 
 ## Description
-🔍 This app allows developer to provide a great README.me file in a way that is clear effective and easy to use it. 
 
-## Table of Contents
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
+This is a node.js app that can generate a README.md file to the user from the backeend terminal of the computer. If a README provide in a good way, it allows developer to show his work for employer and other developers.
+
+The quality of a README often distingush a good project from a bad project. A good one takes advantage of the opportunity to explain and showcase what your application does, justify the technologies used, and even talk about some of the challenges you faced and features you hope to implement in the future. A good README helps you stand out among the large crowd of developers putting their work on GitHub.
 
 ## Installation
-💾 To generate your own README, `git clone` the repo down to your local so you have the Node project on your local. 
-Plus `npm install inquirer`
+As a node.js app, this README generator will have to be run through the users terminal on their machine. Clone the repository and run the app using node in the terminal.
 
 ## Usage
-💻 [Gif demo of README-generator](./js/readme-demo.gif)
-
-## License
-![badge](https://img.shields.io/badge/license-APPACHE-brightgreen)
-<br />
-
-
-## Contributing
-👪 N/A
+Provide instructions and examples for use. Include screenshots as needed.
 
 ## Tests
-✏️ `node index.js`
+Some prompts require input for the user to proceedwhile others can be left blank because they are left as optional. Examples of prompts requiring input include project name and description. Some optional ones are installation and usage sections
 
-## Questions
-✋ <br />
-For any questions, please contact me with the information below:
- 
-<br />
- :location Find me on GitHub: [Mekonnen Mohammed](#https://github.com/Mekonnenke)<br />
-<br />
-✉️ Email me with any questions: [E-mail:](mekotigi@gmail.com)<br /><br />
 
-_This README was generated with ❤️ by [README-generator](https://github.com/Mekonnenke/Node_js_challenege/blob/main/README.md) 🔥🔥🔥_
-  

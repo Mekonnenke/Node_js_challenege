@@ -1,7 +1,7 @@
 
-  # Employee Tracker
+  # generate README
   ## Description
-  This app develope to generate README.md doc
+  Renowned for their pan- African presence and with a reputation for delivering world-class Digital
   ## Table of contents
   * [License](#license)
   * [Installation](#installation)
@@ -16,16 +16,16 @@
   
   
   ## Installation
-  To install node.js require
+  Renowned for their pan- African presence and with a reputation for delivering world-class Digital
   ## Usage
-   To install node.js require
+  Renowned for their pan- African presence and with a reputation for delivering world-class Digital
   ## Contributions
   N/A
   ## Tests
-  npm node index
+  Renowned for their pan- African presence and with a reputation for delivering world-class Digital
   ## Questions
-  GitHub: https://github.com/mekonnenke
+  GitHub: https://github.com/http://github.com/Mekonnenke
   For any additional questions or information, please contact me.
   [mekotigi@gmail.com](mailto:mekotigi@gmail.com)
   
-  _This README was generated with ❤️ by [README-generator](https://github.com/mekonnenke/README-generator) 🔥🔥🔥_
+  
